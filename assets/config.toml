@@ -1,0 +1,7 @@
+[openai]
+url = "http://chatapi.littlewheat.com/v1"
+key = "sk-izKDCDcxAgEn1DXMbm0Yoc89Dn9MSTiikf7PgGQgGdaJXx4u"
+
+[langchain]
+[langchain.langsmith]
+key = "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"
