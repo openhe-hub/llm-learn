@@ -7,8 +7,8 @@ completion = client.chat.completions.create(
   model="gpt-4o",
   messages=[
     {"role": "user",
-    "content": ""}
+    "content": "请你以复旦校园为场景，以中文系学生的日常生活为题材，创作一部越剧剧本"}
   ],
-  temperature=0.7,
+  temperature=1.0,
 )
 print(completion.choices[0].message.content)
